@@ -1,0 +1,13 @@
+venv/*
+venv
+data/*
+!data/README.md
+models/*.pt
+models/*.pth
+models/*.ckpt
+models/JunctionTreeVAE/*
+JunctionTreeVariationalAutoencoder/vendor/
+DeepDDS/vendor/
+models/DeepDDS/*
+models/MolGAN/*
+models/HiGNN/*

@@ -1,0 +1,13 @@
+torch
+torch_geometric
+ipywidgets
+ipykernel
+matplotlib
+numpy
+scipy
+networkx
+rdkit
+cython
+tqdm
+pandas
+pyarrow
