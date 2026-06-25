@@ -1,6 +1,7 @@
 venv/*
 venv
 data/*
+!data/environment_reports/
 !data/README.md
 models/*.pt
 models/*.pth
