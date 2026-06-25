@@ -11,3 +11,4 @@ DeepDDS/vendor/
 models/DeepDDS/*
 models/MolGAN/*
 models/HiGNN/*
+PAT.txt
