@@ -1,0 +1,178 @@
+Job running on: gpu0203
+Connect from laptop with: ssh -N -L 18888:gpu0203:18888 <USER>@mogon... (via login node)
+Then open: http://localhost:18888
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+[W 2026-06-25 16:13:52.395 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[I 2026-06-25 16:13:52.566 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-06-25 16:13:52.571 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-06-25 16:13:52.575 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-06-25 16:13:53.381 ServerApp] notebook_shim | extension was successfully linked.
+[W 2026-06-25 16:13:53.527 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2026-06-25 16:13:53.528 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-06-25 16:13:53.530 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-06-25 16:13:53.532 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-06-25 16:13:53.536 LabApp] JupyterLab extension loaded from /app/.venv/lib/python3.10/site-packages/jupyterlab
+[I 2026-06-25 16:13:53.536 LabApp] JupyterLab application directory is /app/.venv/share/jupyter/lab
+[I 2026-06-25 16:13:53.536 LabApp] Extension Manager is 'pypi'.
+[I 2026-06-25 16:13:53.603 LabApp] Extensions will be fetched using proxy, proxy host and port: ('10.81.2.170', '3128')
+[I 2026-06-25 16:13:53.605 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-06-25 16:13:53.606 ServerApp] Serving notebooks from local directory: /workspace
+[I 2026-06-25 16:13:53.606 ServerApp] Jupyter Server 2.17.0 is running at:
+[I 2026-06-25 16:13:53.606 ServerApp] http://gpu0203:18888/lab
+[I 2026-06-25 16:13:53.606 ServerApp]     http://127.0.0.1:18888/lab
+[I 2026-06-25 16:13:53.606 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2026-06-25 16:13:53.657 ServerApp] Skipped non-installed server(s): basedpyright, bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyrefly, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2026-06-25 16:22:58.848 ServerApp] 302 GET / (@10.81.2.141) 0.41ms
+[W 2026-06-25 16:23:00.397 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2026-06-25 16:23:01.419 ServerApp] 404 GET /api/contents/unsloth_qwen.ipynb?content=0&hash=0&1782397382152 (950da4cfd2674eb689e34c2cfa53058a@10.81.2.141) 0.97ms referer=http://localhost:18888/lab?
+[W 2026-06-25 16:23:01.419 ServerApp] 404 GET /api/contents/unsloth_qwen.ipynb?content=0&hash=0&1782397382152 (10.81.2.141): No such file or directory: unsloth_qwen.ipynb
+[W 2026-06-25 16:23:01.432 ServerApp] 404 GET /api/contents/exercise_11_unsloth_setup.ipynb?content=0&hash=0&1782397382159 (950da4cfd2674eb689e34c2cfa53058a@10.81.2.141) 0.97ms referer=http://localhost:18888/lab?
+[W 2026-06-25 16:23:01.432 ServerApp] 404 GET /api/contents/exercise_11_unsloth_setup.ipynb?content=0&hash=0&1782397382159 (10.81.2.141): No such file or directory: exercise_11_unsloth_setup.ipynb
+[W 2026-06-25 16:23:01.433 ServerApp] 404 GET /api/contents/additional_exercise_translator.ipynb?content=0&hash=0&1782397382154 (950da4cfd2674eb689e34c2cfa53058a@10.81.2.141) 1.42ms referer=http://localhost:18888/lab?
+[W 2026-06-25 16:23:01.433 ServerApp] 404 GET /api/contents/additional_exercise_translator.ipynb?content=0&hash=0&1782397382154 (10.81.2.141): No such file or directory: additional_exercise_translator.ipynb
+[W 2026-06-25 16:23:01.434 ServerApp] 404 GET /api/contents/exercise_11_unsloth_setup.ipynb?content=0&hash=0&1782397382153 (950da4cfd2674eb689e34c2cfa53058a@10.81.2.141) 1.62ms referer=http://localhost:18888/lab?
+[W 2026-06-25 16:23:01.434 ServerApp] 404 GET /api/contents/exercise_11_unsloth_setup.ipynb?content=0&hash=0&1782397382153 (10.81.2.141): No such file or directory: exercise_11_unsloth_setup.ipynb
+[W 2026-06-25 16:23:01.434 ServerApp] 404 GET /api/contents/additional_exercise_translator.ipynb?content=0&hash=0&1782397382155 (950da4cfd2674eb689e34c2cfa53058a@10.81.2.141) 1.94ms referer=http://localhost:18888/lab?
+[W 2026-06-25 16:23:01.434 ServerApp] 404 GET /api/contents/additional_exercise_translator.ipynb?content=0&hash=0&1782397382155 (10.81.2.141): No such file or directory: additional_exercise_translator.ipynb
+[W 2026-06-25 16:23:01.438 ServerApp] 404 GET /api/contents/unsloth_qwen.ipynb?content=0&hash=0&1782397382160 (950da4cfd2674eb689e34c2cfa53058a@10.81.2.141) 0.40ms referer=http://localhost:18888/lab?
+[W 2026-06-25 16:23:01.438 ServerApp] 404 GET /api/contents/unsloth_qwen.ipynb?content=0&hash=0&1782397382160 (10.81.2.141): No such file or directory: unsloth_qwen.ipynb
+[I 2026-06-25 16:23:01.508 ServerApp] New terminal with automatic name: 1
+[W 2026-06-25 16:23:01.564 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+/app/.venv/lib/python3.10/site-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate(nb)
+[W 2026-06-25 16:23:16.590 ServerApp] Notebook Environment_Hardware_Check.ipynb is not trusted
+[I 2026-06-25 16:23:17.526 ServerApp] Kernel started: 7b09c7e3-6ebb-4493-b768-c155dae4697d
+[I 2026-06-25 16:23:18.813 ServerApp] Adapting from protocol version 5.3 (kernel 7b09c7e3-6ebb-4493-b768-c155dae4697d) to 5.4 (client).
+[I 2026-06-25 16:23:18.813 ServerApp] Adapting from protocol version 5.3 (kernel 7b09c7e3-6ebb-4493-b768-c155dae4697d) to 5.4 (client).
+[I 2026-06-25 16:23:18.814 ServerApp] Connecting to kernel 7b09c7e3-6ebb-4493-b768-c155dae4697d.
+[I 2026-06-25 16:23:18.816 ServerApp] Connecting to kernel 7b09c7e3-6ebb-4493-b768-c155dae4697d.
+[I 2026-06-25 16:23:18.854 ServerApp] Adapting from protocol version 5.3 (kernel 7b09c7e3-6ebb-4493-b768-c155dae4697d) to 5.4 (client).
+[I 2026-06-25 16:23:18.854 ServerApp] Connecting to kernel 7b09c7e3-6ebb-4493-b768-c155dae4697d.
+[I 2026-06-25 16:23:25.911 ServerApp] Kernel restarted: 7b09c7e3-6ebb-4493-b768-c155dae4697d
+[I 2026-06-25 16:23:25.923 ServerApp] Starting buffering for 7b09c7e3-6ebb-4493-b768-c155dae4697d:bc28af5e-4be9-4ffd-9016-301c18302c99
+[I 2026-06-25 16:23:25.997 ServerApp] Adapting from protocol version 5.3 (kernel 7b09c7e3-6ebb-4493-b768-c155dae4697d) to 5.4 (client).
+[I 2026-06-25 16:23:25.997 ServerApp] Connecting to kernel 7b09c7e3-6ebb-4493-b768-c155dae4697d.
+[I 2026-06-25 16:23:25.997 ServerApp] Restoring connection for 7b09c7e3-6ebb-4493-b768-c155dae4697d:bc28af5e-4be9-4ffd-9016-301c18302c99
+[I 2026-06-25 16:25:16.705 ServerApp] Saving file at /Environment_Hardware_Check.ipynb
+[W 2026-06-25 16:25:57.805 ServerApp] Notebook MPNNs/start_MPNN.ipynb is not trusted
+[I 2026-06-25 16:25:58.772 ServerApp] Kernel started: 359b9060-3ad1-41fa-9819-e85c52963568
+[I 2026-06-25 16:25:59.823 ServerApp] Adapting from protocol version 5.3 (kernel 359b9060-3ad1-41fa-9819-e85c52963568) to 5.4 (client).
+[I 2026-06-25 16:25:59.824 ServerApp] Connecting to kernel 359b9060-3ad1-41fa-9819-e85c52963568.
+[I 2026-06-25 16:26:03.045 ServerApp] Kernel restarted: 359b9060-3ad1-41fa-9819-e85c52963568
+[I 2026-06-25 16:26:03.054 ServerApp] Starting buffering for 359b9060-3ad1-41fa-9819-e85c52963568:041b60c1-9f4d-4094-8815-72e71ed72ec6
+[I 2026-06-25 16:26:03.151 ServerApp] Adapting from protocol version 5.3 (kernel 359b9060-3ad1-41fa-9819-e85c52963568) to 5.4 (client).
+[I 2026-06-25 16:26:03.151 ServerApp] Connecting to kernel 359b9060-3ad1-41fa-9819-e85c52963568.
+[I 2026-06-25 16:26:03.151 ServerApp] Restoring connection for 359b9060-3ad1-41fa-9819-e85c52963568:041b60c1-9f4d-4094-8815-72e71ed72ec6
+[W 2026-06-25 16:27:13.513 ServerApp] Notebook Learning/DeepLearning.ipynb is not trusted
+[I 2026-06-25 16:27:14.581 ServerApp] Kernel started: cae657b8-862f-4939-904b-a4b56efb2e40
+[I 2026-06-25 16:27:15.638 ServerApp] Adapting from protocol version 5.3 (kernel cae657b8-862f-4939-904b-a4b56efb2e40) to 5.4 (client).
+[I 2026-06-25 16:27:15.639 ServerApp] Connecting to kernel cae657b8-862f-4939-904b-a4b56efb2e40.
+[I 2026-06-25 16:27:29.971 ServerApp] Kernel restarted: cae657b8-862f-4939-904b-a4b56efb2e40
+[I 2026-06-25 16:27:29.990 ServerApp] Starting buffering for cae657b8-862f-4939-904b-a4b56efb2e40:104ffd1b-ffa2-4980-a99f-52b88da0ea11
+[I 2026-06-25 16:27:30.056 ServerApp] Adapting from protocol version 5.3 (kernel cae657b8-862f-4939-904b-a4b56efb2e40) to 5.4 (client).
+[I 2026-06-25 16:27:30.056 ServerApp] Connecting to kernel cae657b8-862f-4939-904b-a4b56efb2e40.
+[I 2026-06-25 16:27:30.056 ServerApp] Restoring connection for cae657b8-862f-4939-904b-a4b56efb2e40:104ffd1b-ffa2-4980-a99f-52b88da0ea11
+[I 2026-06-25 16:27:57.914 ServerApp] Saving file at /MPNNs/start_MPNN.ipynb
+[W 2026-06-25 16:29:06.819 ServerApp] Notebook Learning/Cheminformatics.ipynb is not trusted
+[I 2026-06-25 16:29:07.951 ServerApp] Kernel started: 2d17a2d2-d7dd-4a15-adef-b0e209d055a6
+[I 2026-06-25 16:29:09.011 ServerApp] Adapting from protocol version 5.3 (kernel 2d17a2d2-d7dd-4a15-adef-b0e209d055a6) to 5.4 (client).
+[I 2026-06-25 16:29:09.012 ServerApp] Connecting to kernel 2d17a2d2-d7dd-4a15-adef-b0e209d055a6.
+[I 2026-06-25 16:29:13.592 ServerApp] Saving file at /Learning/DeepLearning.ipynb
+[W 2026-06-25 16:29:17.069 ServerApp] Notebook Learning/AdvancedChemistry.ipynb is not trusted
+[I 2026-06-25 16:29:18.084 ServerApp] Kernel started: 627958f4-1699-4ce6-8124-4e4c79dd53f2
+[I 2026-06-25 16:29:19.137 ServerApp] Adapting from protocol version 5.3 (kernel 627958f4-1699-4ce6-8124-4e4c79dd53f2) to 5.4 (client).
+[I 2026-06-25 16:29:19.138 ServerApp] Connecting to kernel 627958f4-1699-4ce6-8124-4e4c79dd53f2.
+[I 2026-06-25 16:29:21.256 ServerApp] Kernel restarted: 627958f4-1699-4ce6-8124-4e4c79dd53f2
+[I 2026-06-25 16:29:21.266 ServerApp] Starting buffering for 627958f4-1699-4ce6-8124-4e4c79dd53f2:60f6d123-f41e-4a01-94b7-c602e1767dc1
+[I 2026-06-25 16:29:21.324 ServerApp] Adapting from protocol version 5.3 (kernel 627958f4-1699-4ce6-8124-4e4c79dd53f2) to 5.4 (client).
+[I 2026-06-25 16:29:21.325 ServerApp] Connecting to kernel 627958f4-1699-4ce6-8124-4e4c79dd53f2.
+[I 2026-06-25 16:29:21.325 ServerApp] Restoring connection for 627958f4-1699-4ce6-8124-4e4c79dd53f2:60f6d123-f41e-4a01-94b7-c602e1767dc1
+[I 2026-06-25 16:31:06.894 ServerApp] Saving file at /Learning/Cheminformatics.ipynb
+[I 2026-06-25 16:31:15.816 ServerApp] Kernel restarted: 2d17a2d2-d7dd-4a15-adef-b0e209d055a6
+[I 2026-06-25 16:31:15.826 ServerApp] Starting buffering for 2d17a2d2-d7dd-4a15-adef-b0e209d055a6:e5aa1ff4-7c2d-4f71-a41b-d18eef588383
+[I 2026-06-25 16:31:15.885 ServerApp] Adapting from protocol version 5.3 (kernel 2d17a2d2-d7dd-4a15-adef-b0e209d055a6) to 5.4 (client).
+[I 2026-06-25 16:31:15.886 ServerApp] Connecting to kernel 2d17a2d2-d7dd-4a15-adef-b0e209d055a6.
+[I 2026-06-25 16:31:15.886 ServerApp] Restoring connection for 2d17a2d2-d7dd-4a15-adef-b0e209d055a6:e5aa1ff4-7c2d-4f71-a41b-d18eef588383
+[I 2026-06-25 16:31:17.232 ServerApp] Saving file at /Learning/AdvancedChemistry.ipynb
+[W 2026-06-25 16:32:00.249 ServerApp] Notebook JunctionTreeVariationalAutoencoder/JunctionTreeVAE.ipynb is not trusted
+[I 2026-06-25 16:32:00.581 ServerApp] Kernel started: 2485ab0c-77c4-4427-b487-cba6da50ef9c
+[I 2026-06-25 16:32:01.653 ServerApp] Adapting from protocol version 5.3 (kernel 2485ab0c-77c4-4427-b487-cba6da50ef9c) to 5.4 (client).
+[I 2026-06-25 16:32:01.654 ServerApp] Connecting to kernel 2485ab0c-77c4-4427-b487-cba6da50ef9c.
+[I 2026-06-25 16:32:03.799 ServerApp] Kernel restarted: 2485ab0c-77c4-4427-b487-cba6da50ef9c
+[I 2026-06-25 16:32:03.818 ServerApp] Starting buffering for 2485ab0c-77c4-4427-b487-cba6da50ef9c:5b4cbc89-0d2b-4c36-9d75-20599080b188
+[I 2026-06-25 16:32:03.889 ServerApp] Adapting from protocol version 5.3 (kernel 2485ab0c-77c4-4427-b487-cba6da50ef9c) to 5.4 (client).
+[I 2026-06-25 16:32:03.890 ServerApp] Connecting to kernel 2485ab0c-77c4-4427-b487-cba6da50ef9c.
+[I 2026-06-25 16:32:03.890 ServerApp] Restoring connection for 2485ab0c-77c4-4427-b487-cba6da50ef9c:5b4cbc89-0d2b-4c36-9d75-20599080b188
+[I 2026-06-25 16:33:07.021 ServerApp] Saving file at /Learning/Cheminformatics.ipynb
+[I 2026-06-25 16:34:00.341 ServerApp] Saving file at /JunctionTreeVariationalAutoencoder/JunctionTreeVAE.ipynb
+[W 2026-06-25 16:34:33.348 ServerApp] Notebook GraphVAE/GraphVAE.ipynb is not trusted
+[I 2026-06-25 16:34:34.253 ServerApp] Kernel started: 75386bc4-5b40-4775-933e-b5762d874464
+[I 2026-06-25 16:34:35.303 ServerApp] Adapting from protocol version 5.3 (kernel 75386bc4-5b40-4775-933e-b5762d874464) to 5.4 (client).
+[I 2026-06-25 16:34:35.304 ServerApp] Connecting to kernel 75386bc4-5b40-4775-933e-b5762d874464.
+[I 2026-06-25 16:34:38.080 ServerApp] Kernel restarted: 75386bc4-5b40-4775-933e-b5762d874464
+[I 2026-06-25 16:34:38.092 ServerApp] Starting buffering for 75386bc4-5b40-4775-933e-b5762d874464:7158b180-9cf5-4b83-96f8-df00750d407b
+[I 2026-06-25 16:34:38.164 ServerApp] Adapting from protocol version 5.3 (kernel 75386bc4-5b40-4775-933e-b5762d874464) to 5.4 (client).
+[I 2026-06-25 16:34:38.165 ServerApp] Connecting to kernel 75386bc4-5b40-4775-933e-b5762d874464.
+[I 2026-06-25 16:34:38.165 ServerApp] Restoring connection for 75386bc4-5b40-4775-933e-b5762d874464:7158b180-9cf5-4b83-96f8-df00750d407b
+[W 2026-06-25 16:35:25.594 ServerApp] Notebook DeepAffinity/DeepAffinity.ipynb is not trusted
+[I 2026-06-25 16:35:26.443 ServerApp] Kernel started: c01b2dfd-81be-4634-99a0-7204a2a532a2
+[I 2026-06-25 16:35:27.497 ServerApp] Adapting from protocol version 5.3 (kernel c01b2dfd-81be-4634-99a0-7204a2a532a2) to 5.4 (client).
+[I 2026-06-25 16:35:27.498 ServerApp] Connecting to kernel c01b2dfd-81be-4634-99a0-7204a2a532a2.
+[I 2026-06-25 16:35:29.339 ServerApp] Kernel restarted: c01b2dfd-81be-4634-99a0-7204a2a532a2
+[I 2026-06-25 16:35:29.354 ServerApp] Starting buffering for c01b2dfd-81be-4634-99a0-7204a2a532a2:bf7f9487-89f0-4c69-814f-575cadf8b99f
+[I 2026-06-25 16:35:29.418 ServerApp] Adapting from protocol version 5.3 (kernel c01b2dfd-81be-4634-99a0-7204a2a532a2) to 5.4 (client).
+[I 2026-06-25 16:35:29.419 ServerApp] Connecting to kernel c01b2dfd-81be-4634-99a0-7204a2a532a2.
+[I 2026-06-25 16:35:29.419 ServerApp] Restoring connection for c01b2dfd-81be-4634-99a0-7204a2a532a2:bf7f9487-89f0-4c69-814f-575cadf8b99f
+[I 2026-06-25 16:35:40.253 ServerApp] Saving file at /GraphVAE/GraphVAE.ipynb
+[I 2026-06-25 16:35:40.333 ServerApp] Starting buffering for 75386bc4-5b40-4775-933e-b5762d874464:7158b180-9cf5-4b83-96f8-df00750d407b
+[I 2026-06-25 16:35:45.425 ServerApp] Saving file at /JunctionTreeVariationalAutoencoder/JunctionTreeVAE.ipynb
+[I 2026-06-25 16:35:47.521 ServerApp] Starting buffering for 2485ab0c-77c4-4427-b487-cba6da50ef9c:5b4cbc89-0d2b-4c36-9d75-20599080b188
+[I 2026-06-25 16:35:49.525 ServerApp] Saving file at /Learning/Cheminformatics.ipynb
+[I 2026-06-25 16:35:50.701 ServerApp] Starting buffering for 2d17a2d2-d7dd-4a15-adef-b0e209d055a6:e5aa1ff4-7c2d-4f71-a41b-d18eef588383
+[I 2026-06-25 16:35:52.764 ServerApp] Saving file at /Learning/DeepLearning.ipynb
+[I 2026-06-25 16:35:53.907 ServerApp] Starting buffering for cae657b8-862f-4939-904b-a4b56efb2e40:104ffd1b-ffa2-4980-a99f-52b88da0ea11
+[I 2026-06-25 16:35:55.566 ServerApp] Saving file at /MPNNs/start_MPNN.ipynb
+[I 2026-06-25 16:35:56.857 ServerApp] Starting buffering for 359b9060-3ad1-41fa-9819-e85c52963568:041b60c1-9f4d-4094-8815-72e71ed72ec6
+[I 2026-06-25 16:35:59.256 ServerApp] Saving file at /Environment_Hardware_Check.ipynb
+[I 2026-06-25 16:36:00.540 ServerApp] Starting buffering for 7b09c7e3-6ebb-4493-b768-c155dae4697d:bc28af5e-4be9-4ffd-9016-301c18302c99
+[I 2026-06-25 16:36:04.669 ServerApp] Saving file at /Learning/AdvancedChemistry.ipynb
+[I 2026-06-25 16:36:06.295 ServerApp] Starting buffering for 627958f4-1699-4ce6-8124-4e4c79dd53f2:60f6d123-f41e-4a01-94b7-c602e1767dc1
+[I 2026-06-25 16:37:20.112 ServerApp] Saving file at /DeepAffinity/DeepAffinity.ipynb
+[I 2026-06-25 16:37:21.656 ServerApp] Starting buffering for c01b2dfd-81be-4634-99a0-7204a2a532a2:bf7f9487-89f0-4c69-814f-575cadf8b99f
+[W 2026-06-25 16:38:32.563 ServerApp] Notebook DeepDDS/DeepDDS.ipynb is not trusted
+[I 2026-06-25 16:38:33.377 ServerApp] Kernel started: c0ab9399-d57e-4377-87a2-985d48eb5538
+[I 2026-06-25 16:38:34.448 ServerApp] Adapting from protocol version 5.3 (kernel c0ab9399-d57e-4377-87a2-985d48eb5538) to 5.4 (client).
+[I 2026-06-25 16:38:34.449 ServerApp] Connecting to kernel c0ab9399-d57e-4377-87a2-985d48eb5538.
+[I 2026-06-25 16:38:38.135 ServerApp] Kernel restarted: c0ab9399-d57e-4377-87a2-985d48eb5538
+[I 2026-06-25 16:38:38.147 ServerApp] Starting buffering for c0ab9399-d57e-4377-87a2-985d48eb5538:a4688880-a59e-4fe6-b32b-76e686c7d908
+[I 2026-06-25 16:38:38.220 ServerApp] Adapting from protocol version 5.3 (kernel c0ab9399-d57e-4377-87a2-985d48eb5538) to 5.4 (client).
+[I 2026-06-25 16:38:38.221 ServerApp] Connecting to kernel c0ab9399-d57e-4377-87a2-985d48eb5538.
+[I 2026-06-25 16:38:38.221 ServerApp] Restoring connection for c0ab9399-d57e-4377-87a2-985d48eb5538:a4688880-a59e-4fe6-b32b-76e686c7d908
+[I 2026-06-25 16:39:18.690 ServerApp] Saving file at /DeepDDS/DeepDDS.ipynb
+[I 2026-06-25 16:39:19.030 ServerApp] Saving file at /DeepDDS/DeepDDS.ipynb
+[I 2026-06-25 16:39:20.968 ServerApp] Starting buffering for c0ab9399-d57e-4377-87a2-985d48eb5538:a4688880-a59e-4fe6-b32b-76e686c7d908
+[W 2026-06-25 16:39:29.478 ServerApp] Notebook MolGAN/MolGAN.ipynb is not trusted
+[I 2026-06-25 16:39:30.123 ServerApp] Kernel started: e410b0cf-2805-436b-85e4-f4c5b3ad39ac
+[I 2026-06-25 16:39:31.269 ServerApp] Adapting from protocol version 5.3 (kernel e410b0cf-2805-436b-85e4-f4c5b3ad39ac) to 5.4 (client).
+[I 2026-06-25 16:39:31.270 ServerApp] Connecting to kernel e410b0cf-2805-436b-85e4-f4c5b3ad39ac.
+[I 2026-06-25 16:39:35.438 ServerApp] Kernel restarted: e410b0cf-2805-436b-85e4-f4c5b3ad39ac
+[I 2026-06-25 16:39:35.452 ServerApp] Starting buffering for e410b0cf-2805-436b-85e4-f4c5b3ad39ac:af43b46d-a06a-443e-a1cc-17c58db2bc34
+[I 2026-06-25 16:39:35.523 ServerApp] Adapting from protocol version 5.3 (kernel e410b0cf-2805-436b-85e4-f4c5b3ad39ac) to 5.4 (client).
+[I 2026-06-25 16:39:35.524 ServerApp] Connecting to kernel e410b0cf-2805-436b-85e4-f4c5b3ad39ac.
+[I 2026-06-25 16:39:35.524 ServerApp] Restoring connection for e410b0cf-2805-436b-85e4-f4c5b3ad39ac:af43b46d-a06a-443e-a1cc-17c58db2bc34
+[I 2026-06-25 16:40:06.156 ServerApp] Saving file at /MolGAN/MolGAN.ipynb
+[W 2026-06-25 16:40:19.758 ServerApp] Notebook HiGNN/HiGNN.ipynb is not trusted
+[I 2026-06-25 16:40:20.417 ServerApp] Kernel started: 32479f26-a2d6-475b-910f-3f7d3c7b0901
+[I 2026-06-25 16:40:21.480 ServerApp] Adapting from protocol version 5.3 (kernel 32479f26-a2d6-475b-910f-3f7d3c7b0901) to 5.4 (client).
+[I 2026-06-25 16:40:21.481 ServerApp] Connecting to kernel 32479f26-a2d6-475b-910f-3f7d3c7b0901.
+[I 2026-06-25 16:40:23.304 ServerApp] Kernel restarted: 32479f26-a2d6-475b-910f-3f7d3c7b0901
+[I 2026-06-25 16:40:23.313 ServerApp] Starting buffering for 32479f26-a2d6-475b-910f-3f7d3c7b0901:ff3e3dc2-69b7-41fa-a391-02e0fca24754
+[I 2026-06-25 16:40:23.386 ServerApp] Adapting from protocol version 5.3 (kernel 32479f26-a2d6-475b-910f-3f7d3c7b0901) to 5.4 (client).
+[I 2026-06-25 16:40:23.387 ServerApp] Connecting to kernel 32479f26-a2d6-475b-910f-3f7d3c7b0901.
+[I 2026-06-25 16:40:23.387 ServerApp] Restoring connection for 32479f26-a2d6-475b-910f-3f7d3c7b0901:ff3e3dc2-69b7-41fa-a391-02e0fca24754
+[I 2026-06-25 16:41:11.331 ServerApp] Saving file at /HiGNN/HiGNN.ipynb
+[I 2026-06-25 16:41:13.327 ServerApp] Starting buffering for 32479f26-a2d6-475b-910f-3f7d3c7b0901:ff3e3dc2-69b7-41fa-a391-02e0fca24754
+[I 2026-06-25 16:41:16.121 ServerApp] Saving file at /MolGAN/MolGAN.ipynb
+[I 2026-06-25 16:41:17.777 ServerApp] Starting buffering for e410b0cf-2805-436b-85e4-f4c5b3ad39ac:af43b46d-a06a-443e-a1cc-17c58db2bc34
+slurmstepd: error: *** JOB 349373 ON gpu0203 CANCELLED AT 2026-06-25T16:44:09 ***

@@ -1,0 +1,2 @@
+Kachalski-Katzir, deren Algorithmus, DFT, fast Fourier, skalarprodukt, reverse
+Kuntz et al., 1982, DOCK Algorithmus
